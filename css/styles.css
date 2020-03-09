@@ -1,0 +1,111 @@
+body{
+    
+   /* margin-left: auto;
+    margin-right:auto;
+    width: 1200px;*/
+    font-family: Helvetica;
+}
+
+header{
+    background-color:#444;
+    height: 100px;
+   /* margin-bottom: 30px;*/
+}
+ 
+/*hay bt3mel albox alaswad als3'eer */
+header img{
+    /*margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;*/
+    float: left;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+nav{
+    /*display: inline;*/
+    margin: 0px auto;
+    width: 960px;
+
+}
+header ul li{
+display: inline-block;
+margin-top: 40px;
+margin-left: 75px;}
+
+a{
+    text-decoration: none;
+    color: #888;
+}
+
+main{
+    width: 960px;
+    margin: 30px;
+}
+main ul li  {
+   list-style: none;
+   float: left;
+   margin: 30px 30px 30px 0px;
+}
+
+main ul li:last-child{
+    /*rza ma 3melna hay 2a5er box ra7 yeroo7 la ta7t*/
+    margin-right: 0px;
+
+}
+
+section div{
+
+margin-bottom: 30px;
+float: right;
+width: 450px;}
+
+section img{
+    
+    float:left;  
+}
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section div p {
+    height: 320px;
+    overflow: scroll;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+    
+    
+}
+
+
+
+
+ button {
+     border: none;
+     padding: 10px 30px;  
+     background: black;
+     color: #fff;
+     border-radius: 3px;
+     font-size: 18px;
+     margin-top: 10px;
+     transition: 0.350s;
+     /*shekel aleshi hand*/
+cursor: pointer;
+    
+
+ }
+ 
+ 
+button:hover {background-color: green;}
+
+ footer{
+    
+clear:both;
+    background:#444;
+    height: 150px;
+    
+
+ }
+    
